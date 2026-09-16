@@ -12,8 +12,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_wallEmpty",
-    "path":"objects/obj_wallEmpty/obj_wallEmpty.yy",
+    "name":"obj_blockEmpty",
+    "path":"objects/obj_blockEmpty/obj_blockEmpty.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
