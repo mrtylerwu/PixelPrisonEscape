@@ -17,6 +17,7 @@ interact = function(_distance)
             with (_target)
             {
                 interacted();
+				show_debug_message("INTERACTING");
             }
         }
     }
