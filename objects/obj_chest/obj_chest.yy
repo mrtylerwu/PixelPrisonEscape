@@ -28,7 +28,12 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"loot_table","filters":[],"listItems":[],"multiselect":false,"name":"loot_table","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-4","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"chest_id","filters":[],"listItems":[],"multiselect":false,"name":"chest_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-4","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_offset_x","filters":[],"listItems":[],"multiselect":false,"name":"spawn_offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_offset_y","filters":[],"listItems":[],"multiselect":false,"name":"spawn_offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

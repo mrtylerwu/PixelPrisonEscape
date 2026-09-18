@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_guardPatrol",
+  "%Name":"obj_guardChaser",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_guardPatrol",
+  "name":"obj_guardChaser",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
