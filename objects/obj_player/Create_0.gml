@@ -6,6 +6,14 @@ start_y = y;
 
 resets = 5;
 
+//Stamina Bar that drains and refills
+staminaBar = 100;
+
+if (keyboard_check(vk_shift)){
+	obj_player.move_speed = 8;
+	staminaBar -= 10;
+}
+
 interact = function(_distance)
 {
     var _target = instance_nearest(x, y, obj_blockEmpty);
