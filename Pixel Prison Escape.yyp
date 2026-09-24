@@ -48,6 +48,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_powerupEmpty","path":"objects/obj_powerupEmpty/obj_powerupEmpty.yy",},},
     {"id":{"name":"obj_screwdriver","path":"objects/obj_screwdriver/obj_screwdriver.yy",},},
+    {"id":{"name":"Obj_StaminaBar","path":"objects/Obj_StaminaBar/Obj_StaminaBar.yy",},},
     {"id":{"name":"obj_tool","path":"objects/obj_tool/obj_tool.yy",},},
     {"id":{"name":"obj_wallCorner_bottomLeft","path":"objects/obj_wallCorner_bottomLeft/obj_wallCorner_bottomLeft.yy",},},
     {"id":{"name":"obj_wallCorner_bottomRight","path":"objects/obj_wallCorner_bottomRight/obj_wallCorner_bottomRight.yy",},},

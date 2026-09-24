@@ -6,13 +6,10 @@ start_y = y;
 
 resets = 5;
 
-//Stamina Bar that drains and refills
-staminaBar = 100;
 
-if (keyboard_check(vk_shift)){
-	obj_player.move_speed = 8;
-	staminaBar -= 10;
-}
+staminaBar = 100;
+stamina_Regen = 0.5;
+
 
 interact = function(_distance)
 {
@@ -25,7 +22,6 @@ interact = function(_distance)
             with (_target)
             {
                 interacted();
-				show_debug_message("INTERACTING");
             }
         }
     }

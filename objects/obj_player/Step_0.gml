@@ -3,6 +3,17 @@ var move_speed = 4;
 var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+//Speed Change Variable
+a_speed = 6
+
+//Stamina Bar Logic
+if (keyboard_check(vk_shift) && staminaBar > 0){
+	staminaBar -= 2;
+} else if (staminaBar != 100){
+	staminaBar = clamp(staminaBar + stamina_Regen, 0, 100)
+}
+
+
 // Normalize diagonal movement
 var len = point_distance(0, 0, h, v);
 
@@ -14,14 +25,22 @@ if (len > 0) {
 // Horizontal movement
 if (h != 0) {
     if (!place_meeting(x + h * move_speed, y, obj_wallEmpty)) {
-        x += h * move_speed;
+		if (keyboard_check(vk_shift) && staminaBar > 0){
+			x += h * a_speed;
+		} else {
+			x += h * move_speed;
+		}
     }
 }
 
 // Vertical movement
 if (v != 0) {
     if (!place_meeting(x, y + v * move_speed, obj_wallEmpty)) {
-        y += v * move_speed;
+		if (keyboard_check(vk_shift) && staminaBar > 0){
+			y += v * a_speed;
+		} else {
+			y += v * move_speed
+		}
     }
 }
 
@@ -34,6 +53,8 @@ if (keyboard_check_pressed(vk_space)) {
 if (resets == 0) {
 	instance_destroy();
 }
+
+
 
 
 //if within range and space is pressed, interact
