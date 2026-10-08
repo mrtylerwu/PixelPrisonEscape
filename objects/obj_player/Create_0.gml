@@ -6,6 +6,11 @@ start_y = y;
 
 resets = 5;
 
+
+staminaBar = 100;
+stamina_Regen = 0.5;
+
+
 interact = function(_distance)
 {
     var _target = instance_nearest(x, y, obj_blockEmpty);
@@ -17,7 +22,6 @@ interact = function(_distance)
             with (_target)
             {
                 interacted();
-				show_debug_message("INTERACTING");
             }
         }
     }
