@@ -7,6 +7,7 @@ start_y = y;
 resets = 5;
 
 
+//Stamina Bar
 staminaBar = 100;
 stamina_Regen = 0.5;
 
