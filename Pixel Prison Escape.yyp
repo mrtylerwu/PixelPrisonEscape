@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Sprites/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +36,7 @@
   },
   "name":"Pixel Prison Escape",
   "resources":[
+    {"id":{"name":"spr_playerConcept","path":"sprites/spr_playerConcept/spr_playerConcept.yy",},},
     {"id":{"name":"menu_font","path":"fonts/menu_font/menu_font.yy",},},
     {"id":{"name":"obj_blockEmpty","path":"objects/obj_blockEmpty/obj_blockEmpty.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
