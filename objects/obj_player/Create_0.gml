@@ -6,6 +6,15 @@ start_y = y;
 
 resets = 5;
 
+
+//Stamina Bar
+staminaBar = 100;
+stamina_Regen = 0.5;
+
+//Inventory Bar
+inventory = [];
+
+
 interact = function(_distance)
 {
     var _target = instance_nearest(x, y, obj_blockEmpty);
@@ -14,10 +23,10 @@ interact = function(_distance)
     {
         if (point_distance(x, y, _target.x, _target.y) <= _distance)
         {
+			audio_play_sound(snd_interaction, 0, false);
             with (_target)
             {
                 interacted();
-				show_debug_message("INTERACTING");
             }
         }
     }

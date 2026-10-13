@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_guardPatrol",
-    "path":"sprites/spr_guardPatrol/spr_guardPatrol.yy",
+    "name":"spr_guardChaser",
+    "path":"sprites/spr_guardChaser/spr_guardChaser.yy",
   },
   "spriteMaskId":null,
   "visible":true,
