@@ -31,3 +31,5 @@ interact = function(_distance)
         }
     }
 };
+
+audio_stop_sound(snd_menu_music);

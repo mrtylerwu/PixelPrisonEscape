@@ -45,6 +45,7 @@
     {"id":{"name":"obj_guardPatrol","path":"objects/obj_guardPatrol/obj_guardPatrol.yy",},},
     {"id":{"name":"obj_hammer","path":"objects/obj_hammer/obj_hammer.yy",},},
     {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},},
+    {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},
     {"id":{"name":"obj_invis","path":"objects/obj_invis/obj_invis.yy",},},
     {"id":{"name":"obj_keyGeneric","path":"objects/obj_keyGeneric/obj_keyGeneric.yy",},},
     {"id":{"name":"obj_lootManager","path":"objects/obj_lootManager/obj_lootManager.yy",},},
@@ -67,10 +68,12 @@
     {"id":{"name":"obj_wallEdge_vertical","path":"objects/obj_wallEdge_vertical/obj_wallEdge_vertical.yy",},},
     {"id":{"name":"obj_wallEmpty","path":"objects/obj_wallEmpty/obj_wallEmpty.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rules_screen","path":"rooms/rules_screen/rules_screen.yy",},},
     {"id":{"name":"title_screen","path":"rooms/title_screen/title_screen.yy",},},
     {"id":{"name":"scr_wallCollision","path":"scripts/scr_wallCollision/scr_wallCollision.yy",},},
     {"id":{"name":"snd_game_music","path":"sounds/snd_game_music/snd_game_music.yy",},},
     {"id":{"name":"snd_interaction","path":"sounds/snd_interaction/snd_interaction.yy",},},
+    {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},},
     {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
@@ -98,6 +101,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"title_screen","path":"rooms/title_screen/title_screen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rules_screen","path":"rooms/rules_screen/rules_screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
