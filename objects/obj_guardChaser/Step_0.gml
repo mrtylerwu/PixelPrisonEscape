@@ -1,3 +1,6 @@
+// Seeing the player interrupts the normal patrol.
+if (guard_update()) exit;
+
 // Find our target node if we don't have one
 if (target_node == noone) {
     var node_count = instance_number(obj_pathNode);

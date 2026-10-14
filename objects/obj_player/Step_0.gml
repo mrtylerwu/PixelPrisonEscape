@@ -79,3 +79,21 @@ if (keyboard_check_pressed(vk_space))
 }
 */
 
+
+//animation silly
+if (!blinking) {
+    blink_timer--;
+
+    if (blink_timer <= 0) {
+        blinking = true;
+        image_index = 0;
+    }
+} else {
+    image_index += 0.2;
+
+    if (image_index >= image_number) {
+        image_index = 0;
+        blinking = false;
+        blink_timer = irandom_range(120, 300);
+    }
+}
