@@ -13,9 +13,10 @@ if (_key_select) {
     switch(menu_index) {
         case 0: // Start Game
             room_goto(Room1);
-            break;
+			break;
         case 1: // Rules
             // Rule logic
+			room_goto(rules_screen);
             break;
         case 2: // Quit
             game_end();
