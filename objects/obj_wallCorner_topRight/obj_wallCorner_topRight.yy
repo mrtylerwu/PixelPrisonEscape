@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_wallCorner_topRight",
     "path":"sprites/spr_wallCorner_topRight/spr_wallCorner_topRight.yy",
