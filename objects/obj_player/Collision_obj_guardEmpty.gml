@@ -1,6 +1,7 @@
 global.resets -= 1;
 if (global.resets <= 0){
 	room_goto(gameoverRoom)
+	exit
 }
 
 global.run_inventory = [];
@@ -55,7 +56,6 @@ with (obj_chest)
     image_speed = 0;
 }
 
-x = start_x;
-y = start_y;
+room_goto(Room1)
 
 	
