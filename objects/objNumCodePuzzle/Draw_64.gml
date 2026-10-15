@@ -56,5 +56,21 @@ if(keypad_open){
 	//To restore the alignment
 	draw_set_halign(fa_left)
 	draw_set_valign(fa_top)
+	var code_text = "";
+
+	for (var i = 0; i < array_length(entered_code); i++)
+	{
+		code_text += string(entered_code[i]);
+	}
+
+	draw_set_color(c_white);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+
+	draw_text(
+		gui_w / 2,
+		panel_y + 65,
+		code_text
+	);
 		
 }
