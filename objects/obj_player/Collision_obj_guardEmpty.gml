@@ -58,4 +58,4 @@ with (obj_chest)
 
 room_goto(Room1)
 
-	
+global.time_left = max(0, global.time_left - 60);
