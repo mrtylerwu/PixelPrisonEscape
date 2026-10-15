@@ -1,4 +1,6 @@
 resets -= 1;
+death_sound = audio_play_sound(snd_death, 0, false);
+
 global.run_inventory = [];
 if(instance_exists(obj_player)){
 	obj_player.inventory=[]
@@ -44,6 +46,7 @@ with(objBlueBox){
 	message_timer=0
 	box_number = objNumCodePuzzleController.solution[box_id]
 }
+
 with (obj_chest)
 {
     close = true;
@@ -53,5 +56,3 @@ with (obj_chest)
 
 x = start_x;
 y = start_y;
-
-	

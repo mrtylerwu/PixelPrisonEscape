@@ -12,11 +12,18 @@ if (menu_index < 0) menu_index = menu_length - 1;
 if (_key_select) {
     switch(menu_index) {
         case 0: // Start Game
-            room_goto(Room1);
+            with (obj_transition)
+			{
+			    start_fade(Room1);
+			}
 			break;
         case 1: // Rules
             // Rule logic
-			room_goto(rules_screen);
+			with (obj_transition)
+			{
+			    start_fade(rules_screen);
+			}
+			//room_goto(rules_screen);
             break;
         case 2: // Quit
             game_end();

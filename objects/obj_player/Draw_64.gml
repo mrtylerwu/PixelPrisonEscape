@@ -91,6 +91,11 @@ for (var i = 0; i < array_length(inventory); i++)
                 _sprite = spr_screwdriver;
                 break;
 				
+			case "obj_bazooka":
+                _name = "BAZOOKA";
+                _sprite = spr_bazooka;
+                break;
+				
 			case "obj_health":
                 _name = "Health Power Up";
                 _sprite = spr_health;

@@ -55,6 +55,8 @@ if (keyboard_check_pressed(vk_space)) {
 
 //death things
 if (resets == 0) {
+	audio_play_sound(snd_death, 0, false);
+	alarm[0] = room_speed * 5;
 	instance_destroy();
 }
 
@@ -100,4 +102,16 @@ if (!blinking) {
         blinking = false;
         blink_timer = irandom_range(120, 300);
     }
+}
+
+
+death_sound = -1;
+
+if (death_sound != -1 && !audio_is_playing(death_sound))
+{
+    death_sound = -1;
+
+    // Code to run after the sound finishes
+    // For example: restart the room
+    room_restart();
 }

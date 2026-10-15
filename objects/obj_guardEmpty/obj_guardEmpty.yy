@@ -10,8 +10,8 @@
   "name":"obj_guardEmpty",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Empty Managers",
+    "path":"folders/Objects/Empty Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

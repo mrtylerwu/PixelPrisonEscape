@@ -19,7 +19,7 @@ draw_set_valign(fa_middle);
 // Draw title larger
 draw_text_transformed(
     _gui_w / 2,
-    _gui_h * 0.2,
+    _gui_h * 0.10,
     "Instructions:",
     4,
     4,
@@ -33,14 +33,25 @@ draw_text_transformed(
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-var _text_x = _gui_w * 0.2;
-var _text_y = _gui_h * 0.35;
+var _text_x = _gui_w * 0.05;
+var _text_y = _gui_h * 0.15;
 
 draw_text_transformed(_text_x, _text_y,
-    "WASD - Move\n"
+    "You have been wrongly incarcerated after a hit and run.\n"
+	+ "While in prison, you discover an ability to reset your location.\n"
+	+ "But while experimenting, you realize you only get 5 charges left.\n"
+	+ "Find a way to escape, before you lose the chance forever.\n"
+	+ "\n"
+	+ "WASD - Move\n"
     + "SPACE - Interact with objects\n"
-    + "Open chests to find items\n"
-    + "Solve the puzzles to escape",
+    + "R - reset location. You keep all your items!\n"
+	+ "F - Use an ability\n"
+	+ "\n"
+	+ "You start with 5 resets\n"
+	+ "Getting caught resets all progress\n"
+	+ "Open chests to find items and solve the puzzles to escape\n"
+	+ "\n"
+	+ "Hit 'ESC' to go return to menu",
 	2,
 	2,
 	0
