@@ -54,7 +54,7 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 //death things
-if (resets == 0) {
+if (global.resets == 0) {
 	instance_destroy();
 }
 
