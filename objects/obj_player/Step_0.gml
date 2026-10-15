@@ -54,7 +54,7 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 //death things
-if (resets == 0) {
+if (global.resets == 0) {
 	instance_destroy();
 }
 
@@ -100,4 +100,14 @@ if (!blinking) {
         blinking = false;
         blink_timer = irandom_range(120, 300);
     }
+}
+
+if (room == BossRoom){
+	if(array_get_index(inventory, "obj_gun")!=-1){
+		if(mouse_check_button_pressed(mb_left)){
+			var bullet = instance_create_layer(x,y,"Instances",objPlayerBullet)
+			bullet.direction = point_direction(x,y,mouse_x,mouse_y)
+			bullet.speed = 10
+		}
+	}
 }

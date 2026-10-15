@@ -1,4 +1,4 @@
-resets -= 1;
+global.resets -= 1;
 global.run_inventory = [];
 if(instance_exists(obj_player)){
 	obj_player.inventory=[]
@@ -51,7 +51,6 @@ with (obj_chest)
     image_speed = 0;
 }
 
-x = start_x;
-y = start_y;
+room_goto(Room1)
 
 	

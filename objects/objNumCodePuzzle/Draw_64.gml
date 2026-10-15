@@ -23,7 +23,7 @@ if(keypad_open){
 	gap = 15
 	start_x = panel_x + 80
 	start_y = panel_y + 130
-	for(i = 0;i<9;i++){
+	for(var i = 0;i<9;i++){
 		col = i mod 3
 		row = i div 3
 		bx = start_x + col * (button_size + gap)

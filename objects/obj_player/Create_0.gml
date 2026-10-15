@@ -10,7 +10,10 @@ image_yscale = 0.5;
 start_x = x;
 start_y = y;
 
-resets = 5;
+if(!variable_global_exists("resets")){
+global.resets = 5;
+}
+
 
 
 //Stamina Bar
@@ -23,6 +26,10 @@ if(!variable_global_exists("run_inventory")){
 }
 inventory = global.run_inventory
 
+if(array_get_index(inventory,"obj_gun")) == -1{
+	array_push(inventory,"obj_gun")
+	global.run_inventory = inventory
+}
 
 interact = function(_distance)
 {
