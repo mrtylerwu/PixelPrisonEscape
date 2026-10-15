@@ -1,6 +1,10 @@
 //placeholder for damage code
 instance_destroy()
 global.resets-=1
+if(global.resets<=0){
+	room_goto(gameoverRoom)
+	exit
+}
 global.run_inventory = [];
 if(instance_exists(obj_player)){
 	obj_player.inventory=[]

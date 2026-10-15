@@ -1,6 +1,7 @@
 global.resets -= 1;
 if (global.resets <= 0){
 	room_goto(gameoverRoom)
+	exit
 }
 
 global.run_inventory = [];
