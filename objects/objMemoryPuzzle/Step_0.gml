@@ -11,8 +11,8 @@ if keyboard_check_pressed(ord("E")){
 		normalcamH = camera_get_view_height(cam)
 		normalcamW = camera_get_view_width(cam)
 		
-		camera_set_view_pos(cam,4704,992)
-		camera_set_view_size(cam,2304,3456)
+		camera_set_view_pos(cam,4700,500)
+		camera_set_view_size(cam,2400,1500)
 		display_index = 0
 		showing_sequence = true
 		show_debug_message("Sequence being made")

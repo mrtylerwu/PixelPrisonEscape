@@ -21,26 +21,30 @@ if (len > 0) {
     h /= len;
     v /= len;
 }
+current_speed = move_speed
+
+if (keyboard_check(vk_shift) and staminaBar > 0)
+{
+    current_speed = a_speed
+}
 
 // Horizontal movement
-if (h != 0) {
-    if (!place_meeting(x + h * move_speed, y, obj_wallEmpty)) {
-		if (keyboard_check(vk_shift) && staminaBar > 0){
-			x += h * a_speed;
-		} else {
-			x += h * move_speed;
-		}
+if (h != 0)
+{
+    hit_h = instance_place(x + h * current_speed, y, all)
+    if (hit_h == noone || !hit_h.solid)
+    {
+        x += h * current_speed;
     }
 }
 
 // Vertical movement
-if (v != 0) {
-    if (!place_meeting(x, y + v * move_speed, obj_wallEmpty)) {
-		if (keyboard_check(vk_shift) && staminaBar > 0){
-			y += v * a_speed;
-		} else {
-			y += v * move_speed
-		}
+if (v != 0)
+{
+    hit_v = instance_place(x, y + v * current_speed, all)
+    if (hit_v == noone || !hit_v.solid)
+    {
+        y += v * current_speed
     }
 }
 
@@ -50,7 +54,7 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 //death things
-if (resets == 0) {
+if (global.resets == 0) {
 	instance_destroy();
 }
 
@@ -96,4 +100,14 @@ if (!blinking) {
         blinking = false;
         blink_timer = irandom_range(120, 300);
     }
+}
+
+if (room == BossRoom){
+	if(array_get_index(inventory, "obj_gun")!=-1){
+		if(mouse_check_button_pressed(mb_left)){
+			var bullet = instance_create_layer(x,y,"Instances",objPlayerBullet)
+			bullet.direction = point_direction(x,y,mouse_x,mouse_y)
+			bullet.speed = 10
+		}
+	}
 }

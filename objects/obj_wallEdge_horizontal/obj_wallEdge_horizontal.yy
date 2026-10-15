@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_wallEdge_horizontal",
     "path":"sprites/spr_wallEdge_horizontal/spr_wallEdge_horizontal.yy",

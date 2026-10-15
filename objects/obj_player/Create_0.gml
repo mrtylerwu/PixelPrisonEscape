@@ -1,3 +1,5 @@
+global.game_over = false
+
 //animation variables
 image_speed = 0;
 image_index = 0;
@@ -10,13 +12,25 @@ image_yscale = 0.5;
 start_x = x;
 start_y = y;
 
-resets = 5;
+if (!variable_global_exists("resets")){
+	global.resets = 5
+}
 
 
 //Stamina Bar
 staminaBar = 100;
 stamina_Regen = 0.5;
 
+//Inventory Bar
+if(!variable_global_exists("run_inventory")){
+	global.run_inventory = []
+}
+inventory = global.run_inventory
+
+if(array_get_index(inventory,"obj_gun")) == -1{
+	array_push(inventory,"obj_gun")
+	global.run_inventory = inventory
+}
 
 interact = function(_distance)
 {
@@ -26,6 +40,7 @@ interact = function(_distance)
     {
         if (point_distance(x, y, _target.x, _target.y) <= _distance)
         {
+			audio_play_sound(snd_interaction, 0, false);
             with (_target)
             {
                 interacted();
@@ -33,3 +48,5 @@ interact = function(_distance)
         }
     }
 };
+
+audio_stop_sound(snd_menu_music);
