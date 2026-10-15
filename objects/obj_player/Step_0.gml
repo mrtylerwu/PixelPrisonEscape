@@ -57,6 +57,8 @@ if (keyboard_check_pressed(vk_space)) {
 
 //death things
 if (global.resets == 0) {
+    audio_play_sound(snd_death, 0, false);
+	alarm[0] = room_speed * 5;
 	instance_destroy();
 }
 
@@ -104,6 +106,7 @@ if (!blinking) {
     }
 }
 
+<<<<<<< HEAD
 //Invisible Mechanic
 if (is_invisible) {
     invisibility_timer -= 1 / game_get_speed(gamespeed_fps);
@@ -152,3 +155,25 @@ if (has_stamina_powerup) {
         stamina_powerup_timer = 0;
     }
 }
+=======
+
+death_sound = -1;
+
+if (death_sound != -1 && !audio_is_playing(death_sound))
+{
+    death_sound = -1;
+
+    // Code to run after the sound finishes
+    // For example: restart the room
+    room_restart();
+}
+if (room == BossRoom){
+	if(array_get_index(inventory, "obj_gun")!=-1){
+		if(mouse_check_button_pressed(mb_left)){
+			var bullet = instance_create_layer(x,y,"Instances",objPlayerBullet)
+			bullet.direction = point_direction(x,y,mouse_x,mouse_y)
+			bullet.speed = 10
+		}
+	}
+}
+>>>>>>> origin/main

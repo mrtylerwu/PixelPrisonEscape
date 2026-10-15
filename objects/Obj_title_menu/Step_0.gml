@@ -14,11 +14,18 @@ if (_key_select) {
         case 0: // Start Game
 		global.resets = 5
 		global.run_inventory = []
-            room_goto(Room1);
+            with (obj_transition)
+			{
+			    start_fade(Room1);
+			}
 			break;
         case 1: // Rules
             // Rule logic
-			room_goto(rules_screen);
+			with (obj_transition)
+			{
+			    start_fade(rules_screen);
+			}
+			//room_goto(rules_screen);
             break;
         case 2: // Quit
             game_end();
