@@ -55,6 +55,8 @@ if (keyboard_check_pressed(vk_space)) {
 
 //death things
 if (global.resets == 0) {
+    audio_play_sound(snd_death, 0, false);
+	alarm[0] = room_speed * 5;
 	instance_destroy();
 }
 
@@ -102,6 +104,17 @@ if (!blinking) {
     }
 }
 
+
+death_sound = -1;
+
+if (death_sound != -1 && !audio_is_playing(death_sound))
+{
+    death_sound = -1;
+
+    // Code to run after the sound finishes
+    // For example: restart the room
+    room_restart();
+}
 if (room == BossRoom){
 	if(array_get_index(inventory, "obj_gun")!=-1){
 		if(mouse_check_button_pressed(mb_left)){

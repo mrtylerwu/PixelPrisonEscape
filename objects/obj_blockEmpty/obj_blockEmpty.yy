@@ -8,8 +8,8 @@
   "name":"obj_blockEmpty",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Empty Managers",
+    "path":"folders/Objects/Empty Managers.yy",
   },
   "parentObjectId":{
     "name":"obj_wallEmpty",

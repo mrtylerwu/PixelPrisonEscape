@@ -1,3 +1,5 @@
+resets -= 1;
+death_sound = audio_play_sound(snd_death, 0, false);
 global.resets -= 1;
 if (global.resets <= 0){
 	room_goto(gameoverRoom)
@@ -49,6 +51,7 @@ with(objBlueBox){
 	message_timer=0
 	box_number = objNumCodePuzzleController.solution[box_id]
 }
+
 with (obj_chest)
 {
     close = true;

@@ -6,8 +6,8 @@
   "name":"obj_health",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Powerups",
+    "path":"folders/Objects/Powerups.yy",
   },
   "parentObjectId":{
     "name":"obj_powerupEmpty",
