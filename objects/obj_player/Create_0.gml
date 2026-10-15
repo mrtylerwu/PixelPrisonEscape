@@ -1,5 +1,12 @@
 global.game_over = false
+is_invisible = false
+invisible_timer = 0
 
+has_shield = false
+guard_collision_cooldown = 0;
+
+has_stamina_powerup = false
+stamina_powerup_timer = 0
 //animation variables
 image_speed = 0;
 image_index = 0;
