@@ -10,6 +10,5 @@ else{
 	camera_set_view_pos(cam,normalcamX,normalcamY)
 	camera_set_view_size(cam,normalcamW,normalcamH)
 	accepting_input = true
-	input_index = 0
 	show_debug_message("Finished sequence - player can now make the pattern")
 }
