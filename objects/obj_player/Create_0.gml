@@ -17,6 +17,9 @@ resets = 5;
 staminaBar = 100;
 stamina_Regen = 0.5;
 
+//Inventory Bar
+inventory = [];
+
 
 interact = function(_distance)
 {
@@ -26,6 +29,7 @@ interact = function(_distance)
     {
         if (point_distance(x, y, _target.x, _target.y) <= _distance)
         {
+			audio_play_sound(snd_interaction, 0, false);
             with (_target)
             {
                 interacted();
@@ -33,3 +37,5 @@ interact = function(_distance)
         }
     }
 };
+
+audio_stop_sound(snd_menu_music);

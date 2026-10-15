@@ -1,0 +1,230 @@
+[33m8a4cdb0[m[33m ([m[1;32mmain[m[33m)[m Added music/sounds, added inventory system, added powerups, but they don't do things yet.. https://pixabay.com/sound-effects/search/bling/ https://pixabay.com/sound-effects/search/coin/
+M	Pixel Prison Escape.yyp
+M	objects/obj_gate/Create_0.gml
+M	objects/obj_guardChaser/obj_guardChaser.yy
+A	objects/obj_health/obj_health.yy
+A	objects/obj_invis/obj_invis.yy
+A	objects/obj_keyGeneric/obj_keyGeneric.yy
+M	objects/obj_lootManager/Create_0.gml
+A	objects/obj_musicEmpty/Create_0.gml
+A	objects/obj_musicEmpty/obj_musicEmpty.yy
+A	objects/obj_player/Collision_obj_gate.gml
+M	objects/obj_player/Create_0.gml
+A	objects/obj_player/Draw_64.gml
+M	objects/obj_player/obj_player.yy
+M	objects/obj_powerupEmpty/Collision_obj_player.gml
+A	objects/obj_powerupEmpty/Create_0.gml
+M	objects/obj_powerupEmpty/obj_powerupEmpty.yy
+A	objects/obj_shield/obj_shield.yy
+A	objects/obj_stamina/obj_stamina.yy
+M	objects/obj_tool/Collision_obj_player.gml
+M	rooms/Room1/Room1.yy
+M	rooms/title_screen/title_screen.yy
+A	sounds/snd_game_music/snd_game_music.wav
+A	sounds/snd_game_music/snd_game_music.yy
+A	sounds/snd_interaction/snd_interaction.mp3
+A	sounds/snd_interaction/snd_interaction.yy
+A	sounds/snd_pickup/snd_pickup.mp3
+A	sounds/snd_pickup/snd_pickup.yy
+A	sprites/spr_health/47d2c333-58a0-4a3b-ba6e-213f338549c4.png
+A	sprites/spr_health/layers/47d2c333-58a0-4a3b-ba6e-213f338549c4/36f252b0-0597-4073-ab43-efdbaa31d16a.png
+A	sprites/spr_health/spr_health.yy
+A	sprites/spr_invis/e7775be3-1df7-4098-a3a3-680d2c4068aa.png
+A	sprites/spr_invis/layers/e7775be3-1df7-4098-a3a3-680d2c4068aa/a286274e-90a9-467f-b56f-23d286528be0.png
+A	sprites/spr_invis/spr_invis.yy
+A	sprites/spr_keyGeneric/06baf142-37aa-42f6-be9d-116dc29a14a9.png
+A	sprites/spr_keyGeneric/layers/06baf142-37aa-42f6-be9d-116dc29a14a9/1b51eb4c-a8e7-440c-8453-54ea56fec261.png
+A	sprites/spr_keyGeneric/spr_keyGeneric.yy
+A	sprites/spr_shield/301c1161-ba66-40bb-a094-a26bc0a29930.png
+A	sprites/spr_shield/layers/301c1161-ba66-40bb-a094-a26bc0a29930/0f5eae34-b445-41d3-aa28-8da445ef1f06.png
+A	sprites/spr_shield/spr_shield.yy
+A	sprites/spr_stamina/4a3b4f2d-18ca-4443-bf82-2b7b47cf90b2.png
+A	sprites/spr_stamina/layers/4a3b4f2d-18ca-4443-bf82-2b7b47cf90b2/f6250376-5cc5-49ae-9168-eedb2d8d7820.png
+A	sprites/spr_stamina/spr_stamina.yy
+A	sprites/spr_title/ebec6722-c69c-4625-b175-40b18f147ba6.png
+A	sprites/spr_title/layers/ebec6722-c69c-4625-b175-40b18f147ba6/80a0351f-2d8c-4048-bc83-291ddb1c1502.png
+A	sprites/spr_title/spr_title.yy
+[33m98d83ed[m[33m ([m[1;35mrefs/stash[m[33m)[m WIP on main: 2a9710f init commit
+[33m0255028[m index on main: 2a9710f init commit
+[33me6fac1a[m[33m ([m[1;31morigin/main[m[33m)[m Merge pull request #4 from mrtylerwu/cesar-branch
+[33m5434022[m Added Title Screen
+M	Pixel Prison Escape.yyp
+A	fonts/menu_font/menu_font.old.png
+A	fonts/menu_font/menu_font.old.yy
+A	fonts/menu_font/menu_font.png
+A	fonts/menu_font/menu_font.yy
+A	objects/Obj_parachute/Obj_parachute.yy
+A	objects/Obj_title_menu/Create_0.gml
+A	objects/Obj_title_menu/Draw_0.gml
+A	objects/Obj_title_menu/Obj_title_menu.yy
+A	objects/Obj_title_menu/Step_0.gml
+M	objects/obj_player/Create_0.gml
+M	rooms/Room1/Room1.yy
+A	rooms/title_screen/title_screen.yy
+[33m9ff3a3e[m Merge pull request #3 from mrtylerwu/cesar-branch
+[33m01bdd16[m Finished the layout of my side (Cesar)
+M	rooms/Room1/Room1.yy
+[33mf6dc633[m Merge pull request #2 from mrtylerwu/cesar-branch
+[33m127f723[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mTylerWu[m[33m, [m[1;31morigin/TylerWu[m[33m)[m stuff
+M	objects/obj_guardPatrol/obj_guardPatrol.yy
+M	objects/obj_player/obj_player.yy
+M	rooms/Room1/Room1.yy
+[33md659539[m Debug Stamina and chest
+M	Pixel Prison Escape.yyp
+A	objects/Obj_StaminaBar/Draw_64.gml
+A	objects/Obj_StaminaBar/Obj_StaminaBar.yy
+M	objects/obj_chest/Create_0.gml
+M	objects/obj_player/Create_0.gml
+M	objects/obj_player/Step_0.gml
+M	rooms/Room1/Room1.yy
+[33m922e7be[m Merge branch 'main' of https://github.com/mrtylerwu/PixelPrisonEscape
+[33m9262886[m Stamina var
+M	objects/obj_player/Create_0.gml
+M	sprites/spr_chest/spr_chest.yy
+[33m6f64191[m Merge pull request #1 from mrtylerwu/TylerWu
+[33m0c7785a[m stuff
+M	Pixel Prison Escape.yyp
+M	objects/obj_chest/Create_0.gml
+M	objects/obj_chest/obj_chest.yy
+A	objects/obj_guardChaser/Create_0.gml
+A	objects/obj_guardChaser/Step_0.gml
+A	objects/obj_guardChaser/obj_guardChaser.yy
+A	objects/obj_guardEmpty/Create_0.gml
+M	objects/obj_guardEmpty/obj_guardEmpty.yy
+M	objects/obj_guardPatrol/Create_0.gml
+M	objects/obj_guardPatrol/obj_guardPatrol.yy
+A	objects/obj_hammer/obj_hammer.yy
+A	objects/obj_lootManager/Create_0.gml
+A	objects/obj_lootManager/Other_4.gml
+A	objects/obj_lootManager/obj_lootManager.yy
+M	objects/obj_player/Create_0.gml
+M	rooms/Room1/Room1.yy
+M	sprites/spr_background/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a.png
+M	sprites/spr_background/layers/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a/979bdbe1-c12d-4687-9c51-094f03cbad7c.png
+D	sprites/spr_chest/07fb4428-6700-48f0-8002-7bf4693dd74e.png
+A	sprites/spr_chest/99d7a86f-a7f1-412d-8006-9aa5ac82f0e6.png
+A	sprites/spr_chest/f89e7b4e-8da4-4dfa-ba71-9791fff275da.png
+D	sprites/spr_chest/layers/07fb4428-6700-48f0-8002-7bf4693dd74e/b591df88-1607-4da7-9199-dd7f54ab6022.png
+A	sprites/spr_chest/layers/99d7a86f-a7f1-412d-8006-9aa5ac82f0e6/b591df88-1607-4da7-9199-dd7f54ab6022.png
+A	sprites/spr_chest/layers/f89e7b4e-8da4-4dfa-ba71-9791fff275da/b591df88-1607-4da7-9199-dd7f54ab6022.png
+M	sprites/spr_chest/spr_chest.yy
+A	sprites/spr_guardChaser/b41797e0-8749-492a-887c-2f308ddb491c.png
+A	sprites/spr_guardChaser/layers/b41797e0-8749-492a-887c-2f308ddb491c/7d4eae8b-23ef-4a4f-a12d-1e5eede6d25a.png
+R089	sprites/spr_guard/spr_guard.yy	sprites/spr_guardChaser/spr_guardChaser.yy
+R100	sprites/spr_guard/b41797e0-8749-492a-887c-2f308ddb491c.png	sprites/spr_guardPatrol/b41797e0-8749-492a-887c-2f308ddb491c.png
+R100	sprites/spr_guard/layers/b41797e0-8749-492a-887c-2f308ddb491c/7d4eae8b-23ef-4a4f-a12d-1e5eede6d25a.png	sprites/spr_guardPatrol/layers/b41797e0-8749-492a-887c-2f308ddb491c/7d4eae8b-23ef-4a4f-a12d-1e5eede6d25a.png
+A	sprites/spr_guardPatrol/spr_guardPatrol.yy
+A	sprites/spr_hammer/8cc873a1-9eb7-48bf-8a0e-0cf408432570.png
+A	sprites/spr_hammer/layers/8cc873a1-9eb7-48bf-8a0e-0cf408432570/10d1f971-e1d5-4f6a-9039-67eec4ff9301.png
+A	sprites/spr_hammer/spr_hammer.yy
+M	sprites/spr_screwdriver/spr_screwdriver.yy
+[33m2a9710f[m[33m ([m[1;32mcheckout[m[33m)[m init commit
+M	Pixel Prison Escape.yyp
+A	objects/obj_blockEmpty/Create_0.gml
+M	objects/obj_blockEmpty/obj_blockEmpty.yy
+M	objects/obj_chest/Create_0.gml
+M	objects/obj_chest/obj_chest.yy
+M	objects/obj_gate/obj_gate.yy
+A	objects/obj_guardEmpty/obj_guardEmpty.yy
+A	objects/obj_guardPatrol/Create_0.gml
+A	objects/obj_guardPatrol/Step_0.gml
+A	objects/obj_guardPatrol/obj_guardPatrol.yy
+A	objects/obj_pathNode/Create_0.gml
+A	objects/obj_pathNode/obj_pathNode.yy
+A	objects/obj_player/Collision_obj_guardEmpty.gml
+M	objects/obj_player/Create_0.gml
+M	objects/obj_player/Keyboard_82.gml
+M	objects/obj_player/Step_0.gml
+M	objects/obj_player/obj_player.yy
+A	objects/obj_powerupEmpty/Collision_obj_player.gml
+A	objects/obj_powerupEmpty/obj_powerupEmpty.yy
+A	objects/obj_screwdriver/obj_screwdriver.yy
+M	objects/obj_tool/Collision_obj_player.gml
+A	objects/obj_tool/Create_0.gml
+M	objects/obj_tool/obj_tool.yy
+M	rooms/Room1/Room1.yy
+M	sprites/spr_background/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a.png
+M	sprites/spr_background/layers/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a/979bdbe1-c12d-4687-9c51-094f03cbad7c.png
+A	sprites/spr_guard/b41797e0-8749-492a-887c-2f308ddb491c.png
+A	sprites/spr_guard/layers/b41797e0-8749-492a-887c-2f308ddb491c/7d4eae8b-23ef-4a4f-a12d-1e5eede6d25a.png
+A	sprites/spr_guard/spr_guard.yy
+A	sprites/spr_screwdriver/8cc873a1-9eb7-48bf-8a0e-0cf408432570.png
+A	sprites/spr_screwdriver/layers/8cc873a1-9eb7-48bf-8a0e-0cf408432570/10d1f971-e1d5-4f6a-9039-67eec4ff9301.png
+A	sprites/spr_screwdriver/spr_screwdriver.yy
+[33ma384a61[m expanded on the map
+M	Pixel Prison Escape.yyp
+A	objects/obj_blockEmpty/obj_blockEmpty.yy
+A	objects/obj_door/obj_door.yy
+M	objects/obj_player/Create_0.gml
+A	objects/obj_player/Keyboard_82.gml
+M	objects/obj_player/obj_player.yy
+A	objects/obj_tool/Collision_obj_player.gml
+A	objects/obj_tool/obj_tool.yy
+M	rooms/Room1/Room1.yy
+[33m99ff353[m Initial commit
+A	.gitattributes
+A	.gitignore
+A	Pixel Prison Escape.yyp
+A	objects/obj_chest/Create_0.gml
+A	objects/obj_chest/obj_chest.yy
+A	objects/obj_gate/Create_0.gml
+A	objects/obj_gate/obj_gate.yy
+A	objects/obj_player/Create_0.gml
+A	objects/obj_player/Step_0.gml
+A	objects/obj_player/obj_player.yy
+A	objects/obj_wallCorner_bottomLeft/obj_wallCorner_bottomLeft.yy
+A	objects/obj_wallCorner_bottomRight/obj_wallCorner_bottomRight.yy
+A	objects/obj_wallCorner_topLeft/obj_wallCorner_topLeft.yy
+A	objects/obj_wallCorner_topRight/obj_wallCorner_topRight.yy
+A	objects/obj_wallEdge_horizontal/obj_wallEdge_horizontal.yy
+A	objects/obj_wallEdge_vertical/obj_wallEdge_vertical.yy
+A	objects/obj_wallEmpty/obj_wallEmpty.yy
+A	options/android/options_android.yy
+A	options/html5/options_html5.yy
+A	options/ios/options_ios.yy
+A	options/linux/options_linux.yy
+A	options/mac/options_mac.yy
+A	options/main/options_main.yy
+A	options/operagx/options_operagx.yy
+A	options/ps4/options_ps4.yy
+A	options/ps5/options_ps5.yy
+A	options/reddit/options_reddit.yy
+A	options/switch/options_switch.yy
+A	options/tvos/options_tvos.yy
+A	options/windows/options_windows.yy
+A	options/xboxseriesxs/options_xboxseriesxs.yy
+A	rooms/Room1/Room1.yy
+A	scripts/scr_wallCollision/scr_wallCollision.gml
+A	scripts/scr_wallCollision/scr_wallCollision.yy
+A	sprites/spr_background/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a.png
+A	sprites/spr_background/layers/cb5cea98-0627-4bb2-b6e5-2ade1fa7701a/979bdbe1-c12d-4687-9c51-094f03cbad7c.png
+A	sprites/spr_background/spr_background.yy
+A	sprites/spr_chest/07fb4428-6700-48f0-8002-7bf4693dd74e.png
+A	sprites/spr_chest/layers/07fb4428-6700-48f0-8002-7bf4693dd74e/b591df88-1607-4da7-9199-dd7f54ab6022.png
+A	sprites/spr_chest/spr_chest.yy
+A	sprites/spr_gate/07fb4428-6700-48f0-8002-7bf4693dd74e.png
+A	sprites/spr_gate/d34d102f-f52c-4d73-897b-cec275c2fb97.png
+A	sprites/spr_gate/layers/07fb4428-6700-48f0-8002-7bf4693dd74e/b591df88-1607-4da7-9199-dd7f54ab6022.png
+A	sprites/spr_gate/layers/d34d102f-f52c-4d73-897b-cec275c2fb97/b591df88-1607-4da7-9199-dd7f54ab6022.png
+A	sprites/spr_gate/spr_gate.yy
+A	sprites/spr_player/8657de5f-b97a-4aa5-afaa-0f66716237b6.png
+A	sprites/spr_player/layers/8657de5f-b97a-4aa5-afaa-0f66716237b6/5f6ad5c5-7254-4299-972b-74497db39f21.png
+A	sprites/spr_player/spr_player.yy
+A	sprites/spr_wallCorner_bottomLeft/bd1b0011-8913-4a6b-892f-67ea13a9f340.png
+A	sprites/spr_wallCorner_bottomLeft/layers/bd1b0011-8913-4a6b-892f-67ea13a9f340/e06733e5-e11b-49f9-9ee5-7140c8b989bc.png
+A	sprites/spr_wallCorner_bottomLeft/spr_wallCorner_bottomLeft.yy
+A	sprites/spr_wallCorner_bottomRight/35ef386d-ce1a-4922-86f8-cb18e0325027.png
+A	sprites/spr_wallCorner_bottomRight/layers/35ef386d-ce1a-4922-86f8-cb18e0325027/57360416-2ccc-4500-bd7a-aa14f33380ff.png
+A	sprites/spr_wallCorner_bottomRight/spr_wallCorner_bottomRight.yy
+A	sprites/spr_wallCorner_topLeft/be355f69-a136-484a-b016-19512a5836af.png
+A	sprites/spr_wallCorner_topLeft/layers/be355f69-a136-484a-b016-19512a5836af/055d96aa-33ac-4f50-9b88-e72c3aac858f.png
+A	sprites/spr_wallCorner_topLeft/spr_wallCorner_topLeft.yy
+A	sprites/spr_wallCorner_topRight/726bbed9-e927-44cc-a856-3577a5fd11cd.png
+A	sprites/spr_wallCorner_topRight/layers/726bbed9-e927-44cc-a856-3577a5fd11cd/36a5e082-5a09-4ff6-918a-3949fa112390.png
+A	sprites/spr_wallCorner_topRight/spr_wallCorner_topRight.yy
+A	sprites/spr_wallEdge_horizontal/efb9fdde-ded1-4b05-863a-409353a285fb.png
+A	sprites/spr_wallEdge_horizontal/layers/efb9fdde-ded1-4b05-863a-409353a285fb/a4ec8637-84af-4030-9c5f-4237211a45be.png
+A	sprites/spr_wallEdge_horizontal/spr_wallEdge_horizontal.yy
+A	sprites/spr_wallEdge_vertical/69dbe9e5-2951-4a28-8d17-b63fa8187ead.png
+A	sprites/spr_wallEdge_vertical/layers/69dbe9e5-2951-4a28-8d17-b63fa8187ead/bd283baf-bec2-45e7-bec0-0cd76a4553e9.png
+A	sprites/spr_wallEdge_vertical/spr_wallEdge_vertical.yy
