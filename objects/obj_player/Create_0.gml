@@ -18,7 +18,10 @@ staminaBar = 100;
 stamina_Regen = 0.5;
 
 //Inventory Bar
-inventory = [];
+if(!variable_global_exists("run_inventory")){
+	global.run_inventory = []
+}
+inventory = global.run_inventory
 
 
 interact = function(_distance)

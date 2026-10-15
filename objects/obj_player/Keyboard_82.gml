@@ -1,5 +1,4 @@
 if (keyboard_check_pressed(ord("R"))) {
-    x = start_x;
-    y = start_y;
+    room_goto(Room1)
 	resets -= 1;
 }
