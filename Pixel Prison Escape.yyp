@@ -41,6 +41,7 @@
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
     {"id":{"name":"obj_cubicle","path":"objects/obj_cubicle/obj_cubicle.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_gameover_controller","path":"objects/obj_gameover_controller/obj_gameover_controller.yy",},},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},},
     {"id":{"name":"obj_guardChaser","path":"objects/obj_guardChaser/obj_guardChaser.yy",},},
     {"id":{"name":"obj_guardEmpty","path":"objects/obj_guardEmpty/obj_guardEmpty.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"objNumCodePuzzleController","path":"objects/objNumCodePuzzleController/objNumCodePuzzleController.yy",},},
     {"id":{"name":"objNumReturnDoor","path":"objects/objNumReturnDoor/objNumReturnDoor.yy",},},
     {"id":{"name":"objReturnDoorMem","path":"objects/objReturnDoorMem/objReturnDoorMem.yy",},},
+    {"id":{"name":"gameoverRoom","path":"rooms/gameoverRoom/gameoverRoom.yy",},},
     {"id":{"name":"MemoryRoom","path":"rooms/MemoryRoom/MemoryRoom.yy",},},
     {"id":{"name":"ParachuteRoute","path":"rooms/ParachuteRoute/ParachuteRoute.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -128,6 +130,7 @@
     {"roomId":{"name":"SymbolRoom","path":"rooms/SymbolRoom/SymbolRoom.yy",},},
     {"roomId":{"name":"rules_screen","path":"rooms/rules_screen/rules_screen.yy",},},
     {"roomId":{"name":"ParachuteRoute","path":"rooms/ParachuteRoute/ParachuteRoute.yy",},},
+    {"roomId":{"name":"gameoverRoom","path":"rooms/gameoverRoom/gameoverRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
