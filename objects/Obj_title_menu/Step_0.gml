@@ -12,6 +12,8 @@ if (menu_index < 0) menu_index = menu_length - 1;
 if (_key_select) {
     switch(menu_index) {
         case 0: // Start Game
+		global.resets = 5
+		global.run_inventory = []
             with (obj_transition)
 			{
 			    start_fade(Room1);

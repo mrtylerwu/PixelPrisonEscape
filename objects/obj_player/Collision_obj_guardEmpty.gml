@@ -1,5 +1,10 @@
 resets -= 1;
 death_sound = audio_play_sound(snd_death, 0, false);
+global.resets -= 1;
+if (global.resets <= 0){
+	room_goto(gameoverRoom)
+	exit
+}
 
 global.run_inventory = [];
 if(instance_exists(obj_player)){
@@ -54,5 +59,6 @@ with (obj_chest)
     image_speed = 0;
 }
 
-x = start_x;
-y = start_y;
+room_goto(Room1)
+
+global.time_left = max(0, global.time_left - 60);
