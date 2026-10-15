@@ -17,6 +17,9 @@ if(in_range and keyboard_check_pressed(ord("E"))){
 					puzzle_complete = true
 					accepting_input = false
 					show_debug_message("Puzzle Complete")
+					if(instance_exists(obj_player)){
+						instance_create_layer(obj_player.x,obj_player.y-40,"Instances",objMemoryReward)
+					}
 				}
 			
 			}

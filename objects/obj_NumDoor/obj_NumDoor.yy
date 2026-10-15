@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_SymbolDoor",
+  "%Name":"obj_NumDoor",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_SymbolDoor",
+  "name":"obj_NumDoor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
