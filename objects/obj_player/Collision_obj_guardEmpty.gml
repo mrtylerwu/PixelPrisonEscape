@@ -1,6 +1,15 @@
-resets -= 1;
-death_sound = audio_play_sound(snd_death, 0, false);
-global.resets -= 1;
+//resets -= 1;
+
+
+if (can_damage == true) {
+	can_damage = false
+	can_move = false
+	death_sound = audio_play_sound(snd_death, 0, false);
+	show_debug_message("Resets: " + string(global.resets))
+	alarm[0] = room_speed * 2.5;
+	global.time_left = max(0, global.time_left - 60);
+}
+
 if (global.resets <= 0){
 	room_goto(gameoverRoom)
 	exit
@@ -59,6 +68,5 @@ with (obj_chest)
     image_speed = 0;
 }
 
-room_goto(Room1)
 
-global.time_left = max(0, global.time_left - 60);
+
