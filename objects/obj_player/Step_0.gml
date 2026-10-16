@@ -106,7 +106,6 @@ if (!blinking) {
     }
 }
 
-<<<<<<< HEAD
 //Invisible Mechanic
 if (is_invisible) {
     invisibility_timer -= 1 / game_get_speed(gamespeed_fps);
@@ -155,7 +154,6 @@ if (has_stamina_powerup) {
         stamina_powerup_timer = 0;
     }
 }
-=======
 
 death_sound = -1;
 
@@ -176,4 +174,3 @@ if (room == BossRoom){
 		}
 	}
 }
->>>>>>> origin/main
