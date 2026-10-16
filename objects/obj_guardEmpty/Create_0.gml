@@ -1,8 +1,6 @@
 image_xscale = 0.65;
 image_yscale = 0.65;
-//Stun Variable
-guard_stunned = false
-stun_timer = 0;
+
 // this is the flashlight variables
 vision_range = 220; // how far the gaurd sees
 vision_angle = 60; // how large the cone width is 
@@ -36,14 +34,9 @@ guard_update = function() {
         var _angle = point_direction(x, y, _player.x, _player.y);
 		
 		// checks if the player is in our flashlight & not behind a wall & half the cone width (hitbox stuff)
-        //guard_sees_player = _distance <= vision_range
-            //&& abs(angle_difference(vision_direction, _angle)) <= vision_angle * 0.5
-            //&& collision_line(x, y, _player.x, _player.y, obj_wallEmpty, false, true) == noone;
-			//*Code has been Adjusted for Invisible powerup
-		guard_sees_player = !_player.is_invisible
-			&& _distance <= vision_range
-			&& abs(angle_difference(vision_direction, _angle)) <= vision_angle * 0.5
-			&& collision_line(x, y, _player.x, _player.y, obj_wallEmpty, false, true) == noone;	
+        guard_sees_player = _distance <= vision_range
+            && abs(angle_difference(vision_direction, _angle)) <= vision_angle * 0.5
+            && collision_line(x, y, _player.x, _player.y, obj_wallEmpty, false, true) == noone;
 			// if all coditions true; chase player ( go to current x y pos)
         if (guard_sees_player) {
             guard_last_x = _player.x;

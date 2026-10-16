@@ -1,15 +1,3 @@
-if (guard_stunned) {
-    stun_timer -= 1 / game_get_speed(gamespeed_fps);
-    speed = 0;
-
-    if (stun_timer <= 0) {
-        guard_stunned = false;
-        stun_timer = 0;
-    } else {
-        exit;
-    }
-}
-
 // if gaurd sees player intterupt normal patrol
 if (guard_update()) exit;
 

@@ -1,12 +1,7 @@
 global.game_over = false
-is_invisible = false
-invisible_timer = 0
+can_damage = true
+can_move = true
 
-has_shield = false
-guard_collision_cooldown = 0;
-
-has_stamina_powerup = false
-stamina_powerup_timer = 0
 //animation variables
 image_speed = 0;
 image_index = 0;
@@ -33,11 +28,6 @@ if(!variable_global_exists("run_inventory")){
 	global.run_inventory = []
 }
 inventory = global.run_inventory
-
-if(array_get_index(inventory,"obj_gun")) == -1{
-	array_push(inventory,"obj_gun")
-	global.run_inventory = inventory
-}
 
 interact = function(_distance)
 {

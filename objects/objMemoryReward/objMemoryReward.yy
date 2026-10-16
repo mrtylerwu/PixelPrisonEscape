@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_memReward",
-    "path":"sprites/spr_memReward/spr_memReward.yy",
+    "name":"spr_keyGeneric",
+    "path":"sprites/spr_keyGeneric/spr_keyGeneric.yy",
   },
   "spriteMaskId":null,
   "visible":true,

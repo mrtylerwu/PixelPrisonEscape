@@ -13,6 +13,7 @@ if (_key_select) {
     switch(menu_index) {
         case 0: // Start Game
 		global.resets = 5
+		global.time_left = 300
 		global.run_inventory = []
             with (obj_transition)
 			{
