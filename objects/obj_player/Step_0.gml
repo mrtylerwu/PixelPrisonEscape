@@ -30,6 +30,8 @@ if (keyboard_check(vk_shift) and staminaBar > 0)
     current_speed = a_speed
 }
 
+
+if (can_move == true) {
 // Horizontal movement
 if (h != 0)
 {
@@ -49,7 +51,7 @@ if (v != 0)
         y += v * current_speed
     }
 }
-
+}
 
 if (keyboard_check_pressed(vk_space)) {
     interact(56); //make 64 after no walls

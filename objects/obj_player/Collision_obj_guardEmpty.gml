@@ -1,4 +1,19 @@
-if (guard_collision_cooldown > 0) exit;
+//resets -= 1;
+
+
+if (can_damage == true) {
+	can_damage = false
+	can_move = false
+	death_sound = audio_play_sound(snd_death, 0, false);
+	show_debug_message("Resets: " + string(global.resets))
+	alarm[0] = room_speed * 2.5;
+	global.time_left = max(0, global.time_left - 60);
+}
+
+if (global.resets <= 0){
+	room_goto(gameoverRoom)
+	exit
+}
 
 if (has_shield) {
 	guard_collision_cooldown = 30
@@ -54,24 +69,5 @@ if (has_shield) {
 		    }
 		}
 
-		//Update blue chests to match new generated numbers
-		with(objBlueBox){
-			opened = false
-			image_index=0
-			image_speed=0
-			show_note=false
-			message_timer=0
-			box_number = objNumCodePuzzleController.solution[box_id]
-		}
-		with (obj_chest)
-		{
-		    close = true;
-		    image_index = 0;
-		    image_speed = 0;
-		}
 
-		x = start_x;
-		y = start_y;
-	}
-}
-	
+

@@ -15,7 +15,7 @@
     "name":"obj_blockEmpty",
     "path":"objects/obj_blockEmpty/obj_blockEmpty.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
