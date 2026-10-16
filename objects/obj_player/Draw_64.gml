@@ -115,6 +115,18 @@ for (var i = 0; i < array_length(inventory); i++)
                 _name = "Shield Power Up";
                 _sprite = spr_shield;
                 break;
+			case "objMemoryReward":
+				_name = "Special Key";
+				_sprite = spr_memReward;
+				break;
+			case "objNumReward":
+				_name = "Police Badge";
+				_sprite = spr_PoliceBadge;
+				break;
+			case "obj_gun":
+				_name = "Gun";
+				_sprite = spr_gun;
+				break;
         }
     }
 

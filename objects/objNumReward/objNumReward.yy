@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_PoliceBadge",
+    "path":"sprites/spr_PoliceBadge/spr_PoliceBadge.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

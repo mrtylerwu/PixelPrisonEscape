@@ -54,6 +54,9 @@ if(instance_exists(obj_player)){
 					if(correct){
 						show_debug_message("Correct Code")
 						objNumCodePuzzleController.puzzle_complete=true
+						if(instance_exists(obj_player)){
+							instance_create_layer(obj_player.x,obj_player.y-40,"Instances",objNumReward)
+						}
 						keypad_open=false
 					}
 					else{
