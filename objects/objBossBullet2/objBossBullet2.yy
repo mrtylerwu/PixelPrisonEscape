@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_BossBullet2",
-    "path":"sprites/spr_BossBullet2/spr_BossBullet2.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
