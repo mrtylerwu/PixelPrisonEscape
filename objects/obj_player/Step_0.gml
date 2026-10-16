@@ -8,7 +8,9 @@ a_speed = 6
 
 //Stamina Bar Logic
 if (keyboard_check(vk_shift) && staminaBar > 0){
-	staminaBar -= 2;
+	if (!has_stamina_powerup){
+		staminaBar -= 2
+	}
 } else if (staminaBar != 100){
 	staminaBar = clamp(staminaBar + stamina_Regen, 0, 100)
 }
@@ -106,6 +108,54 @@ if (!blinking) {
     }
 }
 
+//Invisible Mechanic
+if (is_invisible) {
+    invisibility_timer -= 1 / game_get_speed(gamespeed_fps);
+
+    if (invisibility_timer <= 0) {
+        is_invisible = false;
+        invisibility_timer = 0;
+    }
+}
+//Collision Cooldown
+if (guard_collision_cooldown > 0) {
+    guard_collision_cooldown -= 1;
+}
+
+//Using Invisible PowerUp
+if (keyboard_check_pressed(ord("F"))) {
+    var item_index = array_get_index(inventory, "obj_invis");
+
+    if (item_index != -1 && !is_invisible) {
+        is_invisible = true;
+        invisibility_timer = 5;
+
+        array_delete(inventory, item_index, 1);
+        global.run_inventory = inventory;
+    }
+}
+
+//Use Stamina PowerUp
+if (keyboard_check_pressed(ord("T"))) {
+    var item_index = array_get_index(inventory, "obj_stamina");
+
+    if (item_index != -1 && !has_stamina_powerup) {
+        has_stamina_powerup = true;
+        stamina_powerup_timer = 5;
+
+        array_delete(inventory, item_index, 1);
+        global.run_inventory = inventory;
+    }
+}
+
+if (has_stamina_powerup) {
+    stamina_powerup_timer -= 1 / game_get_speed(gamespeed_fps);
+
+    if (stamina_powerup_timer <= 0) {
+        has_stamina_powerup = false;
+        stamina_powerup_timer = 0;
+    }
+}
 
 death_sound = -1;
 
