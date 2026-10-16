@@ -86,6 +86,7 @@
     {"id":{"name":"objNumCodePuzzle","path":"objects/objNumCodePuzzle/objNumCodePuzzle.yy",},},
     {"id":{"name":"objNumCodePuzzleController","path":"objects/objNumCodePuzzleController/objNumCodePuzzleController.yy",},},
     {"id":{"name":"objNumReturnDoor","path":"objects/objNumReturnDoor/objNumReturnDoor.yy",},},
+    {"id":{"name":"objNumReward","path":"objects/objNumReward/objNumReward.yy",},},
     {"id":{"name":"objPlayerBullet","path":"objects/objPlayerBullet/objPlayerBullet.yy",},},
     {"id":{"name":"objReturnDoorMem","path":"objects/objReturnDoorMem/objReturnDoorMem.yy",},},
     {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
