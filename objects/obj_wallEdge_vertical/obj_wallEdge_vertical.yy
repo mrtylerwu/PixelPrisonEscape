@@ -6,8 +6,8 @@
   "name":"obj_wallEdge_vertical",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Walls",
+    "path":"folders/Objects/Walls.yy",
   },
   "parentObjectId":{
     "name":"obj_wallEmpty",

@@ -10,6 +10,9 @@ image_speed = 0;
     instance_create_layer(x, y - 50, "Instances", drop);
 };*/
 close = true
+
+//close = !global.chest_opened[chest_id];
+
 if (close){
 
 	interacted = function() {
